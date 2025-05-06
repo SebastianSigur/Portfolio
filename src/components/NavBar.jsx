@@ -10,6 +10,7 @@ const styles = {
   logoStyle: {
     width: 50,
     height: 40,
+    backgroundColor: 'transparent',
   },
 };
 

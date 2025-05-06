@@ -1,5 +1,4 @@
 {
-    "about": " This is where you can describe about **yourself**. The more you describe about yourself, the better it is!\n\n\nExtra Information about you, like hobbies and your goals.\nExample Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs.",
+    "about": "Hi, I'm Sebastian, a machine learning engineer currently pursuing my MSc in Machine Learning at University College London (UCL). I have a background in discrete mathematics and computer science from Reykjavík University, Iceland. \n\nI'm passionate about using AI to solve real-world problems, particularly within healthcare. My personal belief is that in the next decade we will be able to solve significant challenges in cancer research, drug discovery, and gene therapy. \n\nMy hobbies include climbing, brazilian jiu-jitsu, and I consider myself a health enthusiast, shoutout to my boy Andrew Huberman. My goal is to continuously learn, whether it's in the tech industry, or in personal development.",
     "imageSource": "images/about/profile.png"
-    
-}
+  }
