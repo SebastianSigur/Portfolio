@@ -1,13 +1,54 @@
 {
     "projects" : [
+        
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/cam.png",
+            "title": "Image Segmentation using Pseudo Labels",
+            "bodyText": "- Developed a weakly supervised image segmentation pipeline using pseudo-labels to reduce the need for expensive pixel-level annotations. \n - Improve pseudo-label quality by interpolating standard and top-erased CAMs, followed by training a segmentation model under mixed supervision (strong + weak labels). \n - Achieved segmentation performance close to fully supervised models by combining region-mined CAMs with as few as 10 strongly labeled images.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/SebastianSigur/weakly-supervised-learning-using-pseudo-labels"
+                },
+                {
+                    "text": "Paper",
+                    "href": "https://drive.google.com/file/d/1IGiZOF_1jFa1T8zqGVrnHu0woxK4yaVb/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "PyTorch",
+                "Machine Learning",
+                "Computer Vision",
+                "Pixel Segmentation"
+            ]
+        },
+        {
+            "image" : "images/projects/proteins.png",
+            "title": "Protein Subcellular Localization",
+            "bodyText": "- Alignment-free, feature-based ML pipeline to predict eukaryotic protein subcellular localization, using only relevant biological features.\n -  Biological features such as (amino-acid and dipeptide composition, molecular weight, net charge, isoelectric point, GRAVY/hydrophobicity profiles, signal peptides, NLS/NES) used to train one-vs-rest XGBoost classifiers. \n - Achieved 72.5% overall accuracy—strong performance for Extracellular (F1 0.93) and Other (F1 0.89) classes, with more modest results for Nuclear (F1 0.56) and Cytosolic (F1 0.67) predictions.",
+            "links": [
+                {
+                    "text": "Paper",
+                    "href": "https://drive.google.com/file/d/17BfiUVkaavi8i8ud8OW4wrGXA2d-kwBA/view?usp=sharing"
+                    
+                }
+            ],
+            "tags" : [
+               "Python",
+                "PyTorch",
+                "Machine Learning"
+            ]
+        },
+        {
+            "image" : "images/projects/portfolio.png",
+            "title": "Portfolio",
+            "bodyText": "- Current portfolio website made using **React** showing my projects, experience, education and skills.\n - Built using **React** and **Next.js** with a custom theme and layout.\n - Deployed on **Vercel**",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/SebastianSigur/Portfolio"
+                    
                 },
                 {
                     "text": "Live",
@@ -17,134 +58,51 @@
             "tags" : [
                 "React",
                 "Portfolio",
-                "JavaScript"
+                "JavaScript",
+                "GitHub",
+                "Vercel"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/sleep.png",
+            "title": "Rducing sleep inertia by waking up from lighter sleep",
+            "bodyText": "Created a smart-alarm app for iOS/watchOS that uses Apple Watch heart-rate and HRV data to detect sleep stages in real time and wake users during lighter sleep, reducing sleep inertia. \n - Developed using Swift with Flask-hosted neural network—trained on PPG heart-rate data—to perform three binary classifications (Sleep vs Awake, Light vs Deep, REM vs Non-REM).  Models reached ~90% accuracy on Sleep vs Awake, ~85% on Light vs Deep, and ~70% on REM detection \n - Part of my BSc thesis at Reykjavik University.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "text": "Paper",
+                    "href": "https://skemman.is/handle/1946/44345?locale=en"
+                }
+            ],
+            "tags": [
+                "Flask",
+                "Python",
+                "iOS",
+                "watchOS",
+                "Swift",
+                "Machine Learning"
+            ]
+        },
+        {
+            "image" : "images/projects/esadas.png",
+            "title": "Using Evolutionary Search Algorithms to Improve ADAS",
+            "bodyText": "- Framework for automatic agent search, which uses evolutionary search algorithms to improve the performance of agents in various domains. \n - Open-ended framework that can be applied to multiple domains, and it generates more powerful agents compared to the original ADAS framework. \n - Reduces the cost of automatic agent search by a significant amount compared to ADAS, allowing more independent research in this field.",
+            "links": [
+                {
+                    "text": "Paper",
+                    "href": "https://drive.google.com/file/d/1-NrwgHWzU6kKJUwjxUZHuDB9BzgRt1kO/view?usp=sharing"
                 },
                 {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "GitHub",
+                    "href": "https://github.com/SebastianSigur/ES-ADAS"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Machine Learning",
+                "Large Language Models"
             ]
         }
+
     ]
 }
+
