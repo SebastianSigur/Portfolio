@@ -59,7 +59,12 @@ function About(props) {
                     <img
                       src={data?.imageSource}
                       alt="profile"
-                      style={{ width: '150px', height: 'auto' }} // Or use maxWidth: '150px'
+                      style={{
+                        width: '200px',
+                        height: '200px', // Ensure width and height are equal for a perfect circle
+                        borderRadius: '100%', // Makes the image round
+                        objectFit: 'cover', // Ensures the im6ge fits within the circle
+                      }}
                     />
                   </Col>
                 </Row>
