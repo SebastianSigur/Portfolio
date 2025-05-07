@@ -52,10 +52,10 @@ function About(props) {
             ? (
               <Fade>
                 <Row>
-                  <Col style={styles.introTextContainer}>
+                  <Col style={{ ...styles.introTextContainer, textAlign: 'justify', padding: '20px' }}>
                     {parseIntro(data.about)}
                   </Col>
-                  <Col style={styles.introImageContainer}>
+                  <Col style={{ ...styles.introImageContainer, padding: '20px' }}>
                     <img
                       src={data?.imageSource}
                       alt="profile"
@@ -63,7 +63,8 @@ function About(props) {
                         width: '200px',
                         height: '200px', // Ensure width and height are equal for a perfect circle
                         borderRadius: '100%', // Makes the image round
-                        objectFit: 'cover', // Ensures the im6ge fits within the circle
+                        objectFit: 'cover', // Ensures the image fits within the circle
+                        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.2)', // Adds a subtle shadow for better aesthetics
                       }}
                     />
                   </Col>

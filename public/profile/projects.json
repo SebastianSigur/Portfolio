@@ -83,7 +83,7 @@
             ]
         },
         {
-            "image" : "images/projects/esadas.png",
+            "image" : "images/projects/ESADAS.png",
             "title": "Using Evolutionary Search Algorithms to Improve ADAS",
             "bodyText": "- Framework for automatic agent search, which uses evolutionary search algorithms to improve the performance of agents in various domains. \n - Open-ended framework that can be applied to multiple domains, and it generates more powerful agents compared to the original ADAS framework. \n - Reduces the cost of automatic agent search by a significant amount compared to ADAS, allowing more independent research in this field.",
             "links": [
