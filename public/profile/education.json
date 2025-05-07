@@ -1,19 +1,20 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Sep 2024 - Sep 2025",
+            "cardTitle": "MSc, Machine Learning",
+            "cardSubtitle":"UCL, London",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/ucl.jpg"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Aug 2020- Apr 2024",
+            "cardTitle": "BSc, Computer Science",
+            "cardSubtitle":"Reykjavik University, Iceland",
+            "icon" : {
+                "src": "images/education/ru.png"
+            }
         }
     ]
 }

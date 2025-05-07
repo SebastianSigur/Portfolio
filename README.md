@@ -328,7 +328,6 @@ It has 2 keys, *logo* and *sections*.
             "title": "Apr 20XX",
             "cardTitle": "High School",
             "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
         }
     ]
 }

@@ -1,33 +1,34 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Machine Learning Engineer Engineer",
+            "subtitle": "NeckCare",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Research and Development for AI applications in current and future projects.",
+                "Developed optimal data collection practices, reducing noise in pre-and post-processing of measurements in sensorimotor control measurements."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "09/2023 - 09/2024"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Intern",
+            "subtitle": "Nox Medical",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Worked on validating Nox Medical's machine learning algorithm, designed for detecting sleep apnea events."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "Summer 2023"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Summer Intern",
+            "subtitle": "Natera Inc.",
+            "workType": "Internship",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Worked on the development of a foundational model aimed at understanding cancerous cells and their mutations.",
+                "Extracting and preprocessing of DNA bases from the Human Genome database."
+                
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "08/2020 – 04/2021"
         }
     ]
 }
