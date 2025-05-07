@@ -2,7 +2,7 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "www.linkedin.com/in/sebastiansigur"
+            "href": "https://www.linkedin.com/in/sebastiansigur"
         },
         {
             "network" : "github",
@@ -10,7 +10,7 @@
         },
         {
             "network" : "email",
-            "href": "sebastiansigur@gmail.com"
+            "href": "mailto:sebastiansigur@gmail.com"
         }
     ]
 }
