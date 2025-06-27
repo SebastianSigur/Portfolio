@@ -51,7 +51,6 @@ function Education(props) {
                 allowDynamicUpdate
                 useReadMore={false}
                 items={data.education}
-                cardHeight={250}
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,
@@ -70,6 +69,17 @@ function Education(props) {
                     />
                   ) : null))}
                 </div>
+                {/* Custom content for each card */}
+                {data.education.map((item) => (
+                  <div key={item.title}>
+                    <h3>{item.cardTitle}</h3>
+                    <h4 className="card-subtitle">
+                      <a href={item.url} target="_blank" rel="noopener noreferrer">
+                        {item.cardSubtitle}
+                      </a>
+                    </h4>
+                  </div>
+                ))}
               </Chrono>
             </Container>
           </div>

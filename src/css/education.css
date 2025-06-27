@@ -6,6 +6,20 @@
     justify-content: center;
 }
 
+.card-subtitle a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-subtitle a:hover {
+    text-decoration: underline;
+}
+
+.card-detailed-text {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
 @media only screen and (max-width: 578px) {
     div.vertical-item-row > div:nth-child(1) {
         width: 20% !important;
