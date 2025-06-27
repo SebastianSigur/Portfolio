@@ -65,7 +65,7 @@
         },
         {
             "image" : "images/projects/sleep.png",
-            "title": "Rducing sleep inertia by waking up from lighter sleep",
+            "title": "Reducing sleep inertia by waking up from lighter sleep",
             "bodyText": "Created a smart-alarm app for iOS/watchOS that uses Apple Watch heart-rate and HRV data to detect sleep stages in real time and wake users during lighter sleep, reducing sleep inertia. \n - Developed using Swift with Flask-hosted neural network—trained on PPG heart-rate data—to perform three binary classifications (Sleep vs Awake, Light vs Deep, REM vs Non-REM).  Models reached ~90% accuracy on Sleep vs Awake, ~85% on Light vs Deep, and ~70% on REM detection \n - Part of my BSc thesis at Reykjavik University.",
             "links": [
                 {

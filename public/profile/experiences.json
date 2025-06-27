@@ -1,7 +1,18 @@
 {
     "experiences": [
         {
-            "title": "Machine Learning Engineer Engineer",
+            "title": "Machine Learning Researcher",
+            "subtitle": "Cosyne Therapeutics",
+            "workType": "Full-time",
+            "workDescription": [
+                "Conducting research and developing large-scale transformer-based models on single-cell transcriptomics and rare-disease data.",
+                "Optimised model training efficiency using FlashAttention2, sequence packing, and GPU performance tuning, achieving ~50% reduction in computational costs and significantly increasing throughput.",
+                "Collaborating closely with interdisciplinary teams, applying machine learning methods to bioinformatics workflows to accelerate therapeutic discoveries."
+            ],
+            "dateText": "04/2025 - Present"
+        },
+        {
+            "title": "Machine Learning Engineer",
             "subtitle": "NeckCare",
             "workType": "Full-time",
             "workDescription": [
